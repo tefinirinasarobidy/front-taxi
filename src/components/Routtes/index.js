@@ -2,8 +2,6 @@ import React from "react";
 import { useSelector } from "react-redux";
 import { Navigate, Route, Routes } from "react-router-dom";
 import Home from "../../pages/Home/Home";
-import Login from "../../pages/Login/Index";
-import Register from "../../pages/Register/Index";
 
 function Index() {
   const token_store = useSelector((state) => state.token);
@@ -22,7 +20,7 @@ function Index() {
   };
   return (
     <Routes>
-      <Route
+      {/* <Route
         path="/login"
         element={
           <PrivateRegister>
@@ -45,7 +43,9 @@ function Index() {
             <Home />
           </PrivateRoute>
         }
-      />
+      /> */}
+      <Route
+      path="/" element={<Home/>}/>
     </Routes>
   );
 }
