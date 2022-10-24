@@ -18,15 +18,12 @@ export default function Index() {
             <a href="">Commander</a>
           </li>
           <li>
-            <a href="">Commander</a>
-          </li>
-          <li>
             <a href="">Devenir chauffeur</a>
           </li>
-          <li>
+          <li className="register">
             <a href="">créer un compte</a>
           </li>
-          <li className="register">
+          <li className="login">
             <a href="">Se connecter</a>
           </li>
         </ul>

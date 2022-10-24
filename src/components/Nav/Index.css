@@ -13,8 +13,8 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  /* background-color: #333; */
   display: flex;
+  line-height: 10px;
 }
 li a {
   display: block;
@@ -37,6 +37,12 @@ li a {
     text-align: center;
     text-decoration: none;
 }
-.register {
+.login {
   background: #dc3545;
+}
+.register {
+  border: solid 1px
+}
+li {
+  margin-left: 10px;
 }
