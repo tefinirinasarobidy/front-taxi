@@ -5,6 +5,8 @@ import Child from './components/Child';
 import Routes from './components/Routtes'
 import { useDispatch } from 'react-redux';
 import { token } from './store/actions';
+import Nav from "./components/Nav/Index";
+import Footer from "./components/Footer/Index";
 
 function App() {
   const [data,setData] = useState(
@@ -124,8 +126,16 @@ function App() {
     //     } */}
     //   </header>
     // </div>
-    <div >
-      <Routes/>
+    <div className='home-page'>
+      <div className='nav-page'>
+        <Nav/>
+      </div>
+      <div className='contenu'>
+        <Routes/>
+      </div>
+      <div className='footer'>
+        <Footer/>
+      </div>
     </div>
   );
 }

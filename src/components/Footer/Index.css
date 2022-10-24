@@ -1,0 +1,16 @@
+.parent {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px;
+}
+.block ul {
+    list-style-type: none;
+    padding-left: 0rem;
+}
+.block h6 {
+    color: #fff;
+}
+.block ul li {
+    color: #999;
+}

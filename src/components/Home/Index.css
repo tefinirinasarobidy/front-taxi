@@ -1,0 +1,69 @@
+.sumilation {
+    height: 440px;
+    position: relative;
+}
+.sumilation img {
+    width: 100%;
+    height: 100%;
+}
+.sumilation .formulaire {
+    top: 0;
+    padding: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.depart {
+    background: #e6e6e6;
+    padding: 15px;
+    margin-top: 20px;
+}
+.text-span {
+    margin-right: 21px;
+}
+.input {
+    background: none;
+    border: none;
+    outline: none;
+    color: #42413f;
+    width: 440px;
+}
+.input:hover {
+    background: none;
+    border: none;
+    color: #42413f;
+}
+.input::placeholder {
+    color: #a0a0a0;
+}
+img.logo-right {
+    width: 20px;
+}
+button.active {
+    background: #ababab;
+}
+.btn-quand {
+    width: 35%;
+    margin-right: 5px;
+}
+.quand {
+    float: right;
+    margin-top: 10px;
+}
+.button-action {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+button.btn-estimation {
+    background: #080808;
+    height: 65px;
+    width: calc(50% - 5px);
+    color: #fff;
+}
+button.btn-commander {
+    background: #eb2036;
+    height: 65px;
+    width: calc(50% - 5px);
+    color: #fff;
+}

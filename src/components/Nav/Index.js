@@ -13,11 +13,11 @@ export default function Index() {
     <div className="nav">
       <div className="logo"> logo</div>
       <div className="action">
-        <ul>
-          <li>
+        <ul className="ul-nav">
+          <li className="comander">
             <a href="">Commander</a>
           </li>
-          <li>
+          <li className="comander">
             <a href="">Devenir chauffeur</a>
           </li>
           <li className="register">

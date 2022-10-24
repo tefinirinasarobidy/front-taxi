@@ -1,5 +1,5 @@
 .nav {
-  background: rgb(39, 39, 39);
+  background:#373632;
   display: flex;
   width: 100%;
   color: #fff;
@@ -7,8 +7,7 @@
   margin-top: 20px;
   justify-content: space-between;
 }
-ul {
-  list-style-type: none;
+.ul-nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -16,7 +15,7 @@ ul {
   display: flex;
   line-height: 10px;
 }
-li a {
+.ul-nav li a {
   display: block;
   color: white;
   text-align: center;
@@ -40,9 +39,22 @@ li a {
 .login {
   background: #dc3545;
 }
+.login a:hover {
+  color: #fff;
+}
 .register {
   border: solid 1px
 }
-li {
+.register:hover {
+  background: #fff;
+}
+.ul-nav li {
   margin-left: 10px;
+}
+.comander a:hover {
+  border-bottom: solid #dc3545 1px;
+  color: #fff;
+}
+.register a:hover {
+  color: #000;
 }
